@@ -3,9 +3,12 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MyApp());
 }
+class MyApp extends StatefulWidget{
+  @override
+  MyAppState createState() => MyAppState();
+}
 
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+class MyAppState extends State<MyApp>{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -21,5 +24,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 
 
